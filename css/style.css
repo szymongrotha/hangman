@@ -1,11 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400');
 
-body {
+* {
 	background: #F2DBBC;
 	font-family: Shadows Into Light;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-header {
+header h1 {
 	text-align: center;
-	font-size: 72px;
+	font-size: 150px;
+	text-shadow: 2px 2px 1px #FFFFFF;
+	margin: 0;
+}
+
+#main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0;
+}
+
+#img-main {
+	width: 25%;
+	padding-bottom: 20px;
+}
+
+#js-newgame {
+	background: none;
+	font-size: 50px;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	padding: 10px 50px;
+	cursor: pointer;
+	font-family: Raleway;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #000000;
+}
+
+#alphabet {
+	width: 50vh;
+	font-size: 35px;
+	display: none;
+}
+
+.letter {
+	text-align: center;
+	cursor: pointer;
 }
